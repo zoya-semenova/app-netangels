@@ -1,0 +1,2158 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5. Set the 'ServerName' directive globally to suppress this message
+[Tue Sep 16 16:05:59.260439 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Tue Sep 16 16:05:59.260815 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Sep 16 16:09:05.952142 2025] [autoindex:error] [pid 17] [client 172.18.0.1:52750] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Tue Sep 16 16:16:43.857651 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5. Set the 'ServerName' directive globally to suppress this message
+[Tue Sep 16 16:16:45.835766 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Tue Sep 16 16:16:45.836224 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Sep 16 16:17:32.317627 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5. Set the 'ServerName' directive globally to suppress this message
+[Tue Sep 16 16:17:37.017848 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Tue Sep 16 16:17:37.018223 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Sep 16 16:17:54.186282 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Tue Sep 16 16:18:04.411817 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Tue Sep 16 16:18:04.412246 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+rm: cannot remove './data/modules_models_hashes/catalog.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/catalog.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/catalog.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/catalog.txt': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/indexing.txt': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/meta.txt': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/meta.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/about.txt': No such file or directory
+rm: cannot remove './data/modules_models_hashes/advantages.txt': No such file or directory
+rm: cannot remove './data/modules_models_hashes/banner.txt': No such file or directory
+rm: cannot remove './data/modules_models_hashes/catalog.txt': No such file or directory
+rm: cannot remove './data/modules_models_hashes/contacts.txt': No such file or directory
+rm: cannot remove './data/modules_models_hashes/docs.txt': No such file or directory
+rm: cannot remove './data/modules_models_hashes/improvement.txt': No such file or directory
+rm: cannot remove './data/modules_models_hashes/indexing.txt': No such file or directory
+rm: cannot remove './data/modules_models_hashes/infrastructure.txt': No such file or directory
+rm: cannot remove './data/modules_models_hashes/media.txt': No such file or directory
+rm: cannot remove './data/modules_models_hashes/meta.txt': No such file or directory
+rm: cannot remove './data/modules_models_hashes/mop.txt': No such file or directory
+rm: cannot remove './data/modules_models_hashes/mortgage.txt': No such file or directory
+rm: cannot remove './data/modules_models_hashes/payment.txt': No such file or directory
+rm: cannot remove './data/modules_models_hashes/progress.txt': No such file or directory
+rm: cannot remove './data/modules_models_hashes/redirect.txt': No such file or directory
+rm: cannot remove './data/modules_models_hashes/seo.txt': No such file or directory
+rm: cannot remove './data/modules_models_hashes/technology.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Wed Sep 17 06:25:09.517193 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Wed Sep 17 07:12:02.836026 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Sep 17 07:12:02.836297 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Wed Sep 17 08:03:43.178889 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Wed Sep 17 08:03:51.567142 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Sep 17 08:03:51.567350 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Sep 17 08:04:02.969920 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Wed Sep 17 08:06:25.244970 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Sep 17 08:06:25.245289 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Wed Sep 17 08:27:26.284572 2025] [core:notice] [pid 1] AH00052: child pid 220 exit signal Interrupt (2)
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Wed Sep 17 09:00:00.603285 2025] [core:notice] [pid 1] AH00052: child pid 550 exit signal Interrupt (2)
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Sep 17 09:54:08.002349 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Sep 17 09:54:08.004124 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Wed Sep 17 11:38:14.352512 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Sep 17 11:38:31.847946 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Sep 17 11:38:31.848303 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Sep 17 11:45:07.834592 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Sep 17 11:45:07.840577 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Wed Sep 17 12:54:13.962753 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Wed Sep 17 12:54:21.081131 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Sep 17 12:54:21.081419 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Wed Sep 17 12:57:25.141238 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Wed Sep 17 12:58:00.218983 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Sep 17 12:58:00.219395 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Wed Sep 17 16:14:54.368995 2025] [core:notice] [pid 1] AH00052: child pid 461 exit signal Interrupt (2)
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Wed Sep 17 16:31:07.947744 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Wed Sep 17 16:37:19.318975 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Sep 17 16:37:19.319439 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+rm: cannot remove '../data/modules_models_hashes/catalog.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Wed Sep 17 16:38:31.495907 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Wed Sep 17 16:39:01.483437 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Sep 17 16:39:01.483750 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Wed Sep 17 16:42:16.017765 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Wed Sep 17 16:42:32.239354 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Sep 17 16:42:32.239695 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Wed Sep 17 16:48:39.284327 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Wed Sep 17 16:48:57.131906 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Sep 17 16:48:57.132199 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Sep 17 16:49:01.915945 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Wed Sep 17 16:49:12.978764 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Sep 17 16:49:12.979211 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+fatal: detected dubious ownership in repository at '/var/www/html'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /var/www/html
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Wed Sep 17 17:52:09.271009 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Wed Sep 17 17:54:41.967452 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Sep 17 17:54:41.967937 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+rm: cannot remove './data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Wed Sep 17 18:14:03.777985 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Wed Sep 17 18:14:44.729659 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Sep 17 18:14:44.730058 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+rm: cannot remove '../data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/contacts.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Wed Sep 17 20:00:07.802933 2025] [core:notice] [pid 1] AH00052: child pid 302 exit signal Interrupt (2)
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Wed Sep 17 20:05:50.694114 2025] [core:notice] [pid 1] AH00052: child pid 771 exit signal Interrupt (2)
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Wed Sep 17 20:15:18.583906 2025] [core:notice] [pid 1] AH00052: child pid 925 exit signal Interrupt (2)
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Wed Sep 17 20:27:11.581934 2025] [core:notice] [pid 1] AH00052: child pid 1079 exit signal Interrupt (2)
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Thu Sep 18 06:08:41.236280 2025] [core:notice] [pid 1] AH00052: child pid 1301 exit signal Interrupt (2)
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Thu Sep 18 10:55:20.584868 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Fri Sep 19 13:21:39.320759 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Fri Sep 19 13:21:39.321058 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Fri Sep 19 13:37:51.275935 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Fri Sep 19 13:38:07.784018 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Fri Sep 19 13:38:07.784467 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Sep 19 13:50:44.728967 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Fri Sep 19 13:55:50.154704 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Fri Sep 19 13:55:50.155204 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Sep 19 14:12:49.048776 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Sat Sep 20 09:54:14.376068 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Sat Sep 20 09:54:14.376759 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Sat Sep 20 11:48:18.572439 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Sat Sep 20 11:48:37.247825 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Sat Sep 20 11:48:37.248490 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Sat Sep 20 14:00:54.018538 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Sep 20 15:21:19.316974 2025] [mpm_prefork:notice] [pid 380] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Sat Sep 20 15:21:19.318096 2025] [core:notice] [pid 380] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Sep 20 15:24:32.368049 2025] [mpm_prefork:notice] [pid 380] AH00169: caught SIGTERM, shutting down
+[Sat Sep 20 15:28:33.217338 2025] [mpm_prefork:notice] [pid 656] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Sat Sep 20 15:28:33.218035 2025] [core:notice] [pid 656] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Sep 21 06:22:01.355451 2025] [mpm_prefork:notice] [pid 148] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Sun Sep 21 06:22:01.356481 2025] [core:notice] [pid 148] AH00094: Command line: '/usr/sbin/apache2'
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Fri Sep 26 05:34:08.984405 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Fri Sep 26 05:34:08.984593 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Sep 26 05:39:15.317850 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Fri Sep 26 05:56:27.194325 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Fri Sep 26 05:56:27.194441 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Sep 26 05:58:04.483652 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Fri Sep 26 05:58:20.222393 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Fri Sep 26 05:58:20.222545 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Sep 26 06:10:43.885964 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/home/zoya/aka-lamer-localhost-5c59b39fc75f/aka-lamer-localhost-5c59b39fc75f/bin/php74/www] does not exist
+AH00112: Warning: DocumentRoot [/home/zoya/aka-lamer-localhost-5c59b39fc75f/aka-lamer-localhost-5c59b39fc75f/bin/php74/www/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/home/zoya/aka-lamer-localhost-5c59b39fc75f/aka-lamer-localhost-5c59b39fc75f/bin/php74/www/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Fri Sep 26 06:23:55.266922 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Fri Sep 26 06:23:55.267003 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Sep 26 06:24:47.426946 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Fri Sep 26 06:25:38.347825 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Fri Sep 26 06:25:38.347972 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Sep 26 06:35:47.862624 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Fri Sep 26 06:35:54.564381 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Fri Sep 26 06:35:54.564484 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Sep 26 06:36:53.865987 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Fri Sep 26 06:38:05.478608 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Fri Sep 26 06:38:05.478779 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory './template/__cache/4d4b4e': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/4d4b4e': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/index.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove './data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+rm: cannot remove '../data/modules_models_hashes/news.txt': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory './template/__cache/d57336': No such file or directory
+cp: cannot create directory '../template/__cache/d57336': No such file or directory
+[Sun Sep 28 15:13:52.211647 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 28 15:26:55.757706 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Sun Sep 28 15:26:55.758429 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Sep 28 15:36:38.356403 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Sun Sep 28 15:42:49.395392 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Sun Sep 28 15:42:49.395521 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Mon Sep 29 04:05:40.347350 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Mon Sep 29 04:05:40.347418 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Sep 29 04:13:40.247360 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5. Set the 'ServerName' directive globally to suppress this message
+[Mon Sep 29 04:54:52.778785 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Mon Sep 29 04:54:52.778879 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Thu Oct 02 04:04:03.105313 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Thu Oct 02 04:04:03.105414 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Oct 02 04:04:33.438730 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Tue Oct 07 07:40:47.022975 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Tue Oct 07 07:40:47.024610 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Oct 07 07:40:54.710861 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 08 08:20:59.450073 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Mon Dec 08 08:20:59.450164 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Dec 08 08:21:26.132674 2025] [autoindex:error] [pid 17] [client 172.18.0.1:54628] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Mon Dec 08 12:18:59.417890 2025] [autoindex:error] [pid 17] [client 172.18.0.1:53884] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Mon Dec 08 12:21:23.918130 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 08 12:21:34.766721 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Mon Dec 08 12:21:34.766894 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Dec 08 12:21:53.017136 2025] [autoindex:error] [pid 17] [client 172.18.0.1:38606] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Mon Dec 08 12:21:54.652829 2025] [autoindex:error] [pid 17] [client 172.18.0.1:38606] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Mon Dec 08 12:26:27.793510 2025] [core:notice] [pid 1] AH00052: child pid 91 exit signal Interrupt (2)
+[Mon Dec 08 12:26:27.794146 2025] [core:notice] [pid 1] AH00052: child pid 118 exit signal Interrupt (2)
+[Mon Dec 08 12:33:35.556169 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 08 12:33:42.210664 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Mon Dec 08 12:33:42.210771 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Dec 08 12:42:47.308737 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 08 12:43:00.558314 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Mon Dec 08 12:43:00.558419 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Dec 08 12:53:03.388252 2025] [core:notice] [pid 1] AH00052: child pid 89 exit signal Interrupt (2)
+[Mon Dec 08 12:53:03.388634 2025] [core:notice] [pid 1] AH00052: child pid 117 exit signal Interrupt (2)
+[Tue Dec 09 05:08:56.522386 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 09 05:22:01.751322 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Tue Dec 09 05:22:01.751424 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Dec 09 05:28:38.937755 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 09 05:28:48.875645 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Tue Dec 09 05:28:48.875758 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Dec 09 06:25:27.529130 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Tue Dec 09 06:25:33.876219 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Tue Dec 09 06:25:33.876308 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Dec 09 09:31:32.334726 2025] [core:notice] [pid 1] AH00052: child pid 152 exit signal Interrupt (2)
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 10 05:20:36.516269 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Dec 10 05:20:36.516513 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Dec 10 05:20:49.821519 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 10 05:22:11.818248 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Dec 10 05:22:11.818344 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Dec 10 05:59:33.347462 2025] [core:notice] [pid 1] AH00052: child pid 516 exit signal Interrupt (2)
+[Wed Dec 10 05:59:33.353492 2025] [core:notice] [pid 1] AH00052: child pid 539 exit signal Interrupt (2)
+[Wed Dec 10 05:59:33.353516 2025] [core:notice] [pid 1] AH00052: child pid 549 exit signal Interrupt (2)
+[Wed Dec 10 06:00:11.718252 2025] [core:notice] [pid 1] AH00052: child pid 733 exit signal Interrupt (2)
+[Wed Dec 10 06:00:11.718489 2025] [core:notice] [pid 1] AH00052: child pid 739 exit signal Interrupt (2)
+[Wed Dec 10 06:35:58.689370 2025] [core:notice] [pid 1] AH00052: child pid 1073 exit signal Interrupt (2)
+[Wed Dec 10 06:35:58.690172 2025] [core:notice] [pid 1] AH00052: child pid 1085 exit signal Interrupt (2)
+[Wed Dec 10 06:35:58.690202 2025] [core:notice] [pid 1] AH00052: child pid 1095 exit signal Interrupt (2)
+[Wed Dec 10 06:35:58.690230 2025] [core:notice] [pid 1] AH00052: child pid 1096 exit signal Interrupt (2)
+[Wed Dec 10 06:53:52.487002 2025] [core:notice] [pid 1] AH00052: child pid 1285 exit signal Interrupt (2)
+[Wed Dec 10 06:53:52.489014 2025] [core:notice] [pid 1] AH00052: child pid 1291 exit signal Interrupt (2)
+[Wed Dec 10 06:53:52.489033 2025] [core:notice] [pid 1] AH00052: child pid 1301 exit signal Interrupt (2)
+[Wed Dec 10 06:53:52.489043 2025] [core:notice] [pid 1] AH00052: child pid 1302 exit signal Interrupt (2)
+[Wed Dec 10 06:59:25.063670 2025] [core:notice] [pid 1] AH00052: child pid 1494 exit signal Interrupt (2)
+[Wed Dec 10 06:59:25.064598 2025] [core:notice] [pid 1] AH00052: child pid 1500 exit signal Interrupt (2)
+[Wed Dec 10 06:59:25.064635 2025] [core:notice] [pid 1] AH00052: child pid 1509 exit signal Interrupt (2)
+[Wed Dec 10 06:59:25.064661 2025] [core:notice] [pid 1] AH00052: child pid 1510 exit signal Interrupt (2)
+[Wed Dec 10 06:59:39.611590 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 10 06:59:53.190095 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Dec 10 06:59:53.190167 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Dec 10 07:03:17.340009 2025] [core:notice] [pid 1] AH00052: child pid 152 exit signal Interrupt (2)
+[Wed Dec 10 07:03:17.340173 2025] [core:notice] [pid 1] AH00052: child pid 201 exit signal Interrupt (2)
+[Wed Dec 10 07:03:17.340182 2025] [core:notice] [pid 1] AH00052: child pid 207 exit signal Interrupt (2)
+[Wed Dec 10 07:03:17.340192 2025] [core:notice] [pid 1] AH00052: child pid 217 exit signal Interrupt (2)
+[Wed Dec 10 07:03:17.340211 2025] [core:notice] [pid 1] AH00052: child pid 218 exit signal Interrupt (2)
+[Wed Dec 10 07:07:31.380217 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 10 07:07:40.442053 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Dec 10 07:07:40.442186 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Dec 10 07:21:15.097762 2025] [autoindex:error] [pid 17] [client 172.18.0.1:51202] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Dec 10 07:22:52.344990 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 10 07:23:04.657131 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Dec 10 07:23:04.657269 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Dec 10 07:29:01.579957 2025] [core:notice] [pid 1] AH00052: child pid 152 exit signal Interrupt (2)
+[Wed Dec 10 07:29:01.580238 2025] [core:notice] [pid 1] AH00052: child pid 200 exit signal Interrupt (2)
+[Wed Dec 10 07:29:01.580257 2025] [core:notice] [pid 1] AH00052: child pid 206 exit signal Interrupt (2)
+[Wed Dec 10 07:29:01.580279 2025] [core:notice] [pid 1] AH00052: child pid 221 exit signal Interrupt (2)
+[Wed Dec 10 07:29:01.580312 2025] [core:notice] [pid 1] AH00052: child pid 222 exit signal Interrupt (2)
+[Wed Dec 10 08:44:37.626376 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 10 08:45:01.304643 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Dec 10 08:45:01.304882 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Dec 10 08:47:24.741948 2025] [core:notice] [pid 1] AH00052: child pid 151 exit signal Interrupt (2)
+[Wed Dec 10 09:05:51.980434 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 10 09:06:06.405791 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Dec 10 09:06:06.405910 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Wed Dec 10 09:17:40.916039 2025] [core:notice] [pid 1] AH00052: child pid 201 exit signal Interrupt (2)
+[Wed Dec 10 09:17:40.916438 2025] [core:notice] [pid 1] AH00052: child pid 207 exit signal Interrupt (2)
+[Wed Dec 10 09:17:40.916483 2025] [core:notice] [pid 1] AH00052: child pid 217 exit signal Interrupt (2)
+[Wed Dec 10 09:17:40.916521 2025] [core:notice] [pid 1] AH00052: child pid 218 exit signal Interrupt (2)
+[Wed Dec 10 09:22:09.864814 2025] [autoindex:error] [pid 18] [client 172.18.0.1:54548] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Wed Dec 10 09:25:09.332258 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Wed Dec 10 09:25:20.635714 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Wed Dec 10 09:25:20.636200 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Dec 11 09:27:53.421792 2025] [autoindex:error] [pid 17] [client 172.18.0.1:34520] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Thu Dec 11 09:31:32.866163 2025] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.6. Set the 'ServerName' directive globally to suppress this message
+[Thu Dec 11 09:31:48.041352 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Thu Dec 11 09:31:48.042101 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00112: Warning: DocumentRoot [/var/www/html/nuxt] does not exist
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Fri Dec 19 10:50:04.570480 2025] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.59 (Debian) PHP/7.4.30 configured -- resuming normal operations
+[Fri Dec 19 10:50:04.570805 2025] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'

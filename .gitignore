@@ -1,7 +1,0 @@
-/.env
-/.vscode
-/data/*
-/logs/*
-.DS_Store
-/www
-/bin/php74/www
