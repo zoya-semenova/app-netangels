@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="633217a3-d65f-4e55-a3cd-a242806d320f" name="80.87.102.36">
+        <fileTransfer rootFolder="/var/www/default/site/aka-lamer-localhost-5c59b39fc75f" accessType="SFTP" host="80.87.102.36" port="22" sshConfigId="f99799f3-39ce-45ed-825a-4030ed3ae123" sshConfig="root@80.87.102.36:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
