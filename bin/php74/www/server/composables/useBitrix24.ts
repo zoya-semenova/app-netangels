@@ -25,13 +25,16 @@ export const useBitrix24 = async (
   event: H3Event,
   logger: null | LoggerBrowser = null
 ) => {
-  console.log('session start')
+console.log('session start')
+
   const session: UserSessionRequired = await requireUserSession(event)
   const config = useRuntimeConfig()
 
   const $logger = getLogger(logger)
-console.log('session')
-  console.log(session)
+
+console.log('session composables');
+console.log(session)
+
   if (
     typeof session.secure === 'undefined'
     || typeof session.secure.b24Oauth === 'undefined'

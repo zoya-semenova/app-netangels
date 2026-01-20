@@ -10,7 +10,7 @@ export default ({
 
   target: 'server',
   server: {
-    host: '0.0.0.0', // или '0.0.0.0'
+    host: '0.0.0.0'
   },
   watchers: {
     webpack: {
@@ -87,9 +87,6 @@ export default ({
       dirs: [
         'server/utils/**/*'
       ]
-    },
-    devProxy: {
-      '/sw.js': { target: '/sw.js' }
     }
   }
 })

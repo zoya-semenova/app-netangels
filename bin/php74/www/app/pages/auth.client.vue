@@ -16,10 +16,6 @@ const toast = useToast()
 const $logger = LoggerBrowser.build('Auth.step1', true)
 const b24Url = ref('')
 
-const { loggedIn, user, session, clear: clearSession } = useUserSession()
-console.log('loggedIn auth')
-console.log(loggedIn)
-
 async function goToB24() {
   let authorizationServer: string = ''
 
@@ -36,7 +32,7 @@ async function goToB24() {
   }
 
   navigateTo({
-    path: '/api/auth/bitrix24',
+    path: '/auth/bitrix24',
     query: { authorizationServer }
   }, {
     external: true

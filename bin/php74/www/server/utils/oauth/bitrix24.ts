@@ -95,7 +95,7 @@ export function defineOAuthBitrix24EventHandler({
       code?: string
       state?: string
     }>(event)
-    console.log('query')
+console.log('query')
 console.log(query)
     const authorizationServer = query?.authorizationServer
     // if (
@@ -113,17 +113,17 @@ console.log(query)
     config = defu(config, runtimeConfig, {
       //authorizationURL: `${authorizationServer}/oauth/authorize/`,
       authorizationURL:
-          `http://127.0.0.1/oauth/authorize/?redirect_uri=http://127.0.0.1:3000/api/auth/bitrix24/`,
+          `https://b24x5.t3.ipg.digital/oauth/authorize/`,
+       // authorizationURL: `${authorizationServer}/oauth/authorize/`,
       tokenURL: `https://oauth.bitrix24.tech/oauth/token/`
     }) as OAuthBitrix24Config
 
     if (!config.clientId || !config.clientSecret) {
-      console.log('handleMissingConfiguration')
+console.log('handleMissingConfiguration')
       return handleMissingConfiguration(event, 'bitrix24', ['clientId', 'clientSecret'], onError)
     }
 
     const state = !query.code ? await handleState(event) : query.state
-
 
 console.log('state')
     if (!query.code) {
@@ -132,14 +132,13 @@ console.log('state')
         event,
         withQuery(config.authorizationURL as string, {
           client_id: config.clientId,
-          redirect_uri: 'http://127.0.0.1:3000/api/auth/bitrix24/',
-          response_type: 'code',
           state
         })
       )
     }
 
-    if (query?.state != state) {console.log('handleInvalidState')
+    if (query?.state != state) {
+      console.log('handleInvalidState')
       console.log(query?.state)
       console.log(state)
       handleInvalidState(event, 'bitrix24', onError)
@@ -150,18 +149,12 @@ console.log('start token')
         grant_type: 'authorization_code',
         client_id: config.clientId,
         client_secret: config.clientSecret,
-        redirect_uri: '/',
+        redirect_uri: '',
         code: query.code
       }
     })
-      console.log({
-          grant_type: 'authorization_code',
-          client_id: config.clientId,
-          client_secret: config.clientSecret,
-          redirect_uri: '/',
-          code: query.code
-      })
-    console.log('tokens222')
+
+console.log('tokens22222222222222222222222222222222')
 console.log(tokens)
     if (tokens.error) {
       return handleAccessTokenErrorResponse(event, 'bitrix24', tokens, onError)

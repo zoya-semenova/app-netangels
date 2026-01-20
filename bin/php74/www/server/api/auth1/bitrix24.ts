@@ -29,7 +29,7 @@ export default defineOAuthBitrix24EventHandler({
       serverEndpoint: tokens.server_endpoint,
       status: Object.values(EnumAppStatus).find(value => value === tokens.status) || EnumAppStatus.Free
     }
-console.log('setUserSession')
+console.log('setUserSession api')
     const sess = await setUserSession(event, {
       user: {
         bitrix24: {
@@ -60,6 +60,13 @@ console.log(sess)
 
      // await refreshSession()
 
-    return sendRedirect(event, '/')
+    return
+  //    return sendRedirect(event, 'https://b24x5.t3.ipg.digital/marketplace/app/4/')
+ //   return sendRedirect(event, 'https://b24x5.t3.ipg.digital/marketplace/app/4/')
+ //      return navigateTo({
+ //          path: 'https://b24x5.t3.ipg.digital/marketplace/app/4/'
+ //      }, {
+ //          external: false
+ //      })
   }
 })

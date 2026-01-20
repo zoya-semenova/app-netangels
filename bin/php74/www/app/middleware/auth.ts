@@ -1,7 +1,6 @@
 import {sendRedirect} from "h3";
 import {withQuery} from "ufo";
 
-
 export default defineNuxtRouteMiddleware(async (to, from) => {
  console.log('defineNuxtRouteMiddleware')
 
@@ -11,8 +10,8 @@ export default defineNuxtRouteMiddleware(async (to, from) => {
     //     return send(event, null, '404')
     // }
     //
-    const auth = useState('nuxt-auth-state')
-    console.log(auth)
+   const auth = useState('nuxt-auth-state')
+   console.log(auth)
 /*
     const sessionState = await useRequestFetch()("/api/_auth/session", {
         headers: {
@@ -26,7 +25,7 @@ export default defineNuxtRouteMiddleware(async (to, from) => {
     // const user = useUserStore()
     // console.log(user)
 
-    // if ( to.path != '/api/auth/bitrix24') {
+    // if ( to.path != '/auth/bitrix24') {
 
    //  const user = useUserStore()
     // console.log(user)
@@ -41,8 +40,7 @@ export default defineNuxtRouteMiddleware(async (to, from) => {
     // const { fetch: fetchUserSession } = useUserSession()
     // console.log(fetchUserSession)
 
-    const { loggedIn,  user,
-        session, clear: clearSession} =  useUserSession()
+    const { loggedIn, user, session, clear: clearSession } = useUserSession()
     console.log('loggedIn middle')
     console.log(loggedIn)
     console.log('user middle')
@@ -51,45 +49,66 @@ export default defineNuxtRouteMiddleware(async (to, from) => {
     console.log(session)
     console.log(to.path)
     console.log(to.query)
-    if (!loggedIn.value && (to.query?.code) && (to.path != '/api/auth/bitrix24')) {
-       // return navigateTo('/api/auth/bitrix24')
+
+    if (!loggedIn.value && (to.query?.code)
+        && (to.path != '/auth/bitrix24')) {
+       // return navigateTo('/auth/bitrix24')
         const b24Url = 'https://b24x5.t3.ipg.digital/'
         const queryUrl = new URL(b24Url)
         // return navigateTo({
         // return navigateTo({
-        //     path: '/api/auth/bitrix24',
+        //     path: '/auth/bitrix24',
         //     query:to.query
         // }, {
-        //     external: true
+        //     external: false
         // })
 
 console.log('post')
-        console.log(to.query)
-        //const data = await axios.post('http://80.87.102.36:3000/api/auth/bitrix24', to.query)
+console.log(to.query)
+        //const data = await axios.post('http://80.87.102.36:3000/auth/bitrix24', to.query)
         return navigateTo({
-            path: '/api/auth/bitrix24',
-query: to.query
+            path: '/auth/bitrix24',
+            query: to.query
         }, {
             external: true
         })
 //console.log(data)
   //      return
     }
-    else if (!loggedIn.value && to.path != '/auth') {
-        return navigateTo({
-                path: '/auth'
-
-            }, {
-                external: true
-            })
+    if (!loggedIn.value && to.path != '/auth') {
+        return navigateTo('/auth')
+    }
+    // if (!loggedIn.value && to.path == '/auth') {
+    //     return navigateTo('/')
+    // }
+    if (loggedIn.value && to.path == '/auth') {
+        return navigateTo('/')
     }
 
-    return navigateTo({
-        path: '/install'
-
-    }, {
-        external: true
-    })
+    // else if (!loggedIn.value && to.path != '/auth') {
+    //
+    // }
+    // return navigateTo({
+    //     path: '/'
+    //
+    // }, {
+    //     external: false
+    // })
+    // if ((to.query?.code)
+    //     && (to.path == '/auth/bitrix24')) {
+    //     return navigateTo({
+    //             path: to.query.redirect_uri+''
+    //         }, {
+    //             external: false
+    //         })
+    // }
+    //
+    // return navigateTo({
+    //     path: '/'
+    //
+    // }, {
+    //     external: false
+    // })
  // }
 
 

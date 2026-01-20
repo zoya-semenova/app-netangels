@@ -87,6 +87,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="195.128.53.178">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="31.31.196.8">
         <serverdata>
           <mappings>
@@ -179,6 +186,13 @@
         </serverdata>
       </paths>
       <paths name="94.137.226.14">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="94.198.218.18">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
