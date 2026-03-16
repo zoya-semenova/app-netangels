@@ -65,7 +65,7 @@ services:
       MYSQL_USER: ${MYSQL_USER}
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
     ports:
-      - '${HOST_MACHINE_PMA_PORT}:8081'
+      - '${HOST_MACHINE_PMA_PORT}:8082'
     volumes: 
       - /sessions
       - ${PHP_INI-./config/php/php.ini}:/usr/local/etc/php/conf.d/php-phpmyadmin.ini

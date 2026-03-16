@@ -1,1 +1,1 @@
-export const frontendBaseURL = 'https://vm-ad77e947.na4u.ru:3003'
+export const frontendBaseURL = 'http://127.0.0.1:3003'
