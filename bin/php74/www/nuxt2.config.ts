@@ -50,7 +50,14 @@ export default defineNuxtConfig({
       cors: true
     },
     plugins: [
-      tailwindcss()
+      tailwindcss(),
+      vue({
+        template: {
+          compilerOptions: {
+            isCustomElement: (tag) => ['CompanyList'].includes(tag),
+          }
+        }
+      })
     ]
   }
 })

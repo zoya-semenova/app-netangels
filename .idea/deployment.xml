@@ -45,6 +45,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="192.168.2.112">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="192.168.2.131">
         <serverdata>
           <mappings>
@@ -88,6 +95,13 @@
         </serverdata>
       </paths>
       <paths name="195.128.53.178">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="195.68.143.88">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
@@ -158,6 +172,20 @@
         </serverdata>
       </paths>
       <paths name="91.201.52.222">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="91.201.52.233">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="91.201.54.74">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
