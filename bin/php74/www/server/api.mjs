@@ -100,7 +100,7 @@ server.use(async (req, res) => {
     //data =  await dispatch(GET_CONTACTS)
     if (req.url == '/api/settings') {
       if (reqMethod === 'post') {
-/*
+
 try{
         const result = await bitrix.makeRequest(
             'calendar.section.add',
@@ -124,7 +124,7 @@ try{
   console.log(error.message);
 
       }
-*/
+
         console.log(JSON.stringify(req.body))
         const data = SettingsModel.checkValue(req.body)
         writeFile("./settings.json", JSON.stringify(data), 'utf-8', (err) => {

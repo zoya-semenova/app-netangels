@@ -5,7 +5,7 @@ export const projectProdDomain = 'up-twins.ru'
 // pg-test servet
 //export const backendTestServer = 'https://9d6adc06-ebb1-4be9-86b5-ecdfe4701fc7.mock.pstmn.io'
 
-export const backendTestServer = 'http://127.0.0.1:3002'
+export const backendTestServer = 'https://vm-ad77e947.na4u.ru:3004'
 // Postman mock server
 //export const backendMockServer = 'https://9d6adc06-ebb1-4be9-86b5-ecdfe4701fc7.mock.pstmn.io'
 export const backendMockServer = 'https://3230dcf9-ba57-447d-ac66-0715a9efc31d.mock.pstmn.io'

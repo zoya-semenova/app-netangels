@@ -14,7 +14,7 @@ class CommonService extends Service {
       // const payload = new URLSearchParams()
       // payload.append('name', 'menu')
       // // path = "http://localhost:80/news/"
-       data = await this.post("http://127.0.0.1:3002/api/settings", data)
+       data = await this.post("https://vm-ad77e947.na4u.ru:3004/api/settings", data)
       // //data =  await dispatch(GET_CONTACTS)
       // writeFile("./settings.json", params)
        data = SettingsModel.checkValue(data)
@@ -29,7 +29,7 @@ class CommonService extends Service {
         // const payload = new URLSearchParams()
         // payload.append('name', 'menu')
         // // path = "http://localhost:80/news/"
-        data = await this.post("http://127.0.0.1:3002/api/calendar", data)
+        data = await this.post("https://vm-ad77e947.na4u.ru:3002/api/calendar", data)
         // //data =  await dispatch(GET_CONTACTS)
         // writeFile("./settings.json", params)
         data = SettingsModel.checkValue(data)
@@ -44,7 +44,7 @@ class CommonService extends Service {
         // const payload = new URLSearchParams()
         // payload.append('name', 'menu')
         // // path = "http://localhost:80/news/"
-        let data = await this.get("http://127.0.0.1:3002/api/settings")
+        let data = await this.get("https://vm-ad77e947.na4u.ru:3004/api/settings")
         // //data =  await dispatch(GET_CONTACTS)
         // writeFile("./settings.json", params)
          data = SettingsModel.checkValue(data)
@@ -52,7 +52,6 @@ class CommonService extends Service {
         return data;
         // }
     }
-
 }
 
 export default new CommonService()
