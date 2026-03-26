@@ -6,11 +6,9 @@ import CompanyIcon from '@bitrix24/b24icons-vue/outline/CompanyIcon'
 import * as z from 'zod'
 import type { FormSubmitEvent } from '@bitrix24/b24ui-nuxt'
 
-import { h, resolveComponent } from 'vue'
-import type { TableColumn } from '@bitrix24/b24ui-nuxt'
-
 import type { BitrixCompany } from '~/types'
 import SpinnerIcon from '@bitrix24/b24icons-vue/specialized/SpinnerIcon'
+
 
 import { ref } from 'vue'
 import Bitrix24Icon from '@bitrix24/b24icons-vue/common-service/Bitrix24Icon'
@@ -142,6 +140,12 @@ async function onSubmit(event: FormSubmitEvent<typeof state>) {
 
   const  settings  = await CommonService.saveSettings({ ...state })
 
+
+  //const { user } = useUserSession()
+
+  // const { calendar } = await axios.get('http://80.87.102.36:3000/api/hello')
+  // console.log(calendar)
+
   try {
     // isInited.value = false
     // error.value = null
@@ -157,11 +161,87 @@ async function onSubmit(event: FormSubmitEvent<typeof state>) {
     console.error('Error:', err)
   }
 
+
+  // const calendar = await CommonServiceT.getSettings({ ...state })
+ // const calendar = await this.get("http://80.87.102.36:3003/api/calendar")
+
+  //const  settings  = await CommonService.saveSettings({ ...state })
+  //const settings = await this.post("http://80.87.102.36:3002/api/settings", { ...state })
+  //const settings = await
+ // const settings = await dispatch(GET_CONTACTS)
+
+  // await (`${GET_CONTACTS}`, {
+  //   limit: [newsLimit],
+  //   page: [1]
+  // })
   console.log('response')
   console.log(settings)
+  //commit(SET_SORT_LIST, settings)
+  //state.settings = settings
+  //this.$emit('fields-change', { field, count, seo })
 
-  console.log('Created element with ID:', Result);
 
+  // initializeB24Frame()
+  //     .then((response: B24Frame) => {
+  //       $b24 = response
+
+        /*
+        $b24.callMethod(
+            'calendar.section.add',
+            {
+              type: 'user',
+              ownerId: 1,
+              name: 'New Section',
+              description: 'Description for section',
+              color: '#9cbeee',
+              text_color: '#283000',
+              export: {
+                ALLOW: false,
+                SET: '3_9'
+              }
+            }
+        );
+  */
+        /*
+        return $b24.callBatch({
+          CompanyList: {
+            method: 'calendar.section.add',
+            params: {
+              type: 'user',
+              ownerId: 1,
+              name: 'New Section',
+              description: 'Description for section',
+              color: '#9cbeee',
+              text_color: '#283000',
+              export: {
+                ALLOW: false,
+                SET: '3_9'
+              }
+            }
+          }
+        }, true )
+*/
+      // })
+      // .then((response: Result) => {
+      //  const result = response.getData().result;
+        console.log('Created element with ID:', Result);
+        /*
+        const employees = response.getData()
+        const employeesList = (employees.CompanyList.items || []).map((item: any) => {
+          return {
+            id: Number(item.id),
+            title: item.title,
+            createdTime: Text.toDateTime(item.createdTime as ISODate)
+          }
+        })
+
+        $logger.info('response >> ', employeesList)
+        */
+        // $logger.info('load >> stop ')
+      // })
+      // .catch((error) => {
+      //   $logger.error(error)
+      // })
 }
 
 const { loggedIn, user, session, clear: clearSession } = useUserSession()
@@ -204,40 +284,24 @@ async function goToB24() {
 
 }
 
-// const { data: departments, status } = await useFetch('/api/departments', {
-//   key: 'typicode-users',
-//   transform: (data: { id: number, name: string }[]) => {
-//     return data?.map(department => ({
-//       label: department.name,
-//       value: String(department.id),
-//     }))
-//   },
-//   lazy: true,
-//   onRequestError({ request }) { console.warn('[fetch request error]', request) }
-// })
+import { h, resolveComponent } from 'vue'
+import type { TableColumn } from '@bitrix24/b24ui-nuxt'
 
 const B24Badge = resolveComponent('B24Badge')
 
 type Employee = {
-  id: number
-  birthday: string
-  name: string
+  id: string
+  date: string
+  email: string
 }
 
-type Department = {
-  ID: number
-  NAME: string
-}
-
+const employees = ref<Employee[]>([])
 const page = ref(1)
 const hasMore = ref(true)
 const isInited = ref(false)
 const loading = ref(false)
 const total = ref(0)
 const error = ref<string | null>(null)
-const employees = ref([])
-const departments = ref([])
-const selectFilters = ref([])
 
 const loadMore = async () => {
   if (!hasMore.value) return
@@ -247,17 +311,19 @@ const loadMore = async () => {
     error.value = null
 
     const response = await $fetch<{
-      list: Employee[]
+      nextPage: number | null
+      list: BitrixCompany[]
+      total: number
     }>('/api/employees', {
       method: 'GET',
-      query: { department:  selectFilters.value.value}
+      query: { page: page.value }
     })
 
     if (response) {
-      employees.value = [...response.list]
-    //   const data = ref<Employee[]>([{id:1,name:'2',birthday:'3'}])
-
-      console.log(employees)
+      employees.value = [...employees.value, ...response.list]
+      hasMore.value = !!response.nextPage
+      page.value = response.nextPage || page.value
+      total.value = response.total
     }
   } catch (err) {
     error.value = 'Failed to load employees'
@@ -266,34 +332,8 @@ const loadMore = async () => {
     loading.value = false
     isInited.value = true
   }
-
 }
 
-try {
-  const response = await $fetch<{
-    list: Department[]
-  }>('/api/departments', {
-    method: 'GET',
-    query: { }
-  })
-
-  const data = response.list?.map((user) => ({
-    label: user.NAME,
-    value: String(user.ID),
-  })) || [];
-  console.log(data)
-  if (data) {
-    departments.value = [...departments.value, ...data]
-    //   const data = ref<Employee[]>([{id:1,name:'2',birthday:'3'}])
-
-    console.log(departments)
-  }
-} catch (err) {
-  error.value = 'Failed to load departments'
-  console.error('Error:', err)
-} finally {
-
-}
 onMounted(loadMore)
 
 defineExpose({
@@ -307,21 +347,21 @@ const columns: TableColumn<Employee>[] = [
     cell: ({ row }) => `#${row.getValue('id')}`
   },
   {
-    accessorKey: 'birthday',
-    header: 'Birthday',
+    accessorKey: 'date',
+    header: 'Date',
     cell: ({ row }) => {
-      return row.getValue('birthday') ? new Date(row.getValue('birthday')).toLocaleString('en-US', {
+      return new Date(row.getValue('date')).toLocaleString('en-US', {
         day: 'numeric',
         month: 'short',
         hour: '2-digit',
         minute: '2-digit',
         hour12: false
-      }) : 'не заполнен'
+      })
     }
   },
   {
-    accessorKey: 'name',
-    header: 'Name'
+    accessorKey: 'email',
+    header: 'Email'
   },
 ]
 
@@ -329,9 +369,9 @@ const table = useTemplateRef('table')
 
 const columnFilters = ref([
   {
-    id: 'name',
-    value: ''
-  },
+    id: 'email',
+    value: 'james'
+  }
 ])
 </script>
 
@@ -385,25 +425,14 @@ const columnFilters = ref([
     }"
       >
         <template #header>
-            <B24SelectMenu
-                :items="departments"
-                v-model="selectFilters"
-                :loading="status === 'pending'"
-
-                placeholder="Select department"
-                class="w-[192px]"
-                @update:model-value="loadMore"
-            >
-            </B24SelectMenu>
-
           <B24Input
-              :model-value="table?.tableApi?.getColumn('name')?.getFilterValue() as string"
+              :model-value="table?.tableApi?.getColumn('email')?.getFilterValue() as string"
               class="max-w-[300px]"
-              placeholder="Filter names..."
-              @update:model-value="table?.tableApi?.getColumn('name')?.setFilterValue($event)"
+              placeholder="Filter emails..."
+              @update:model-value="table?.tableApi?.getColumn('email')?.setFilterValue($event)"
           />
         </template>
-        <B24Table ref="table" v-model:column-filters="columnFilters" :data="employees" :columns="columns" />
+        <B24Table ref="table" v-model:column-filters="columnFilters" :employees="employees" :columns="columns" />
       </B24Card>
     </template>
   </B24Tabs>
