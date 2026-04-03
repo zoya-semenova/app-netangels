@@ -32,22 +32,53 @@ export default defineEventHandler(async (event) => {
     })
 
     type Employee = {
-      id: string
-      birthday: string
-      email: string
+      id: string,
+      birthday: string,
+      email: string,
+      departments: array
     }
     const data = response.getData()
 
-    const list = data.result[query.department?query.department:3]
+    const list = data.result[query.departments?query.departments.join(' '):3]
     const time = data.time
 
     $logger.log({
       list
     })
 
-    return {
-      list,
+    try {
+      const response = await $b24.callMethod(
+          'department.get',
+          {
+          }
+      )
+
+      const data = response.getData()
+
+      const departments = data.result
+
+      $logger.log({
+        departments
+      })
+
+      const mapDepartments = Object.fromEntries(departments.map(dep => [dep.ID, dep]));
+      console.log(mapDepartments);console.log('mapDepartments')
+      return  {'list': list.map(user => ({
+        ...user,
+      departments: user.departments.map(dep =>
+          mapDepartments[dep].NAME
+        )
+      }))};
+
+    } catch (error) {
+      $logger.error('Bitrix24 Error:', error)
+
+      throw createError({
+        statusCode: 500,
+        message: 'Error from Bitrix24'
+      })
     }
+
   } catch (error) {
     $logger.error('Bitrix24 Error:', error)
 

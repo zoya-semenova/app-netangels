@@ -2,6 +2,7 @@
 import HrAutomationIcon from '@bitrix24/b24icons-vue/main/HrAutomationIcon'
 import UserCompanyIcon from '@bitrix24/b24icons-vue/common-b24/UserCompanyIcon'
 import PersonIcon from '@bitrix24/b24icons-vue/main/PersonIcon'
+import SettingsIcon from '@bitrix24/b24icons-vue/main/SettingsIcon'
 import CompanyIcon from '@bitrix24/b24icons-vue/outline/CompanyIcon'
 import * as z from 'zod'
 import type { FormSubmitEvent } from '@bitrix24/b24ui-nuxt'
@@ -14,6 +15,8 @@ import SpinnerIcon from '@bitrix24/b24icons-vue/specialized/SpinnerIcon'
 
 import { ref } from 'vue'
 import Bitrix24Icon from '@bitrix24/b24icons-vue/common-service/Bitrix24Icon'
+import type { SelectItem } from '@bitrix24/b24ui-nuxt'
+
 
 import {
 //  initializeB24Frame,
@@ -24,8 +27,6 @@ import {
   Text,
   type ISODate
 } from '@bitrix24/b24jssdk'
-
-
 
 useHead({
   title: 'Bitrix24 UI - Login'
@@ -51,11 +52,10 @@ withDefaults(defineProps<ExampleProps>(), {
 //   layout: 'default'
 // })
 
-
 const items = [
   {
     label: 'Дни рождения',
-    icon: PersonIcon,
+    icon: SettingsIcon,
     slot: 's1'
   },
   {
@@ -64,6 +64,18 @@ const items = [
     slot: 's2'
   },
 ]
+
+const wholivefeedItems = ref<SelectItem[]>([
+  {
+    label: 'Отдел',
+    value: 'department'
+  },
+  {
+    label: 'Компания',
+    value: 'company'
+  },
+]);
+
 const schema = z.object({
   input: z.string().min(10),
   inputNumber: z.number().min(10),
@@ -89,7 +101,7 @@ const schema = z.object({
   textchat: z.string().refine(value => value === true, {
 
   }),
-  wholivefeed: z.any().refine(value => value === true, {
+  wholivefeed: z.any().refine(value => value, {
 
   }),
   daylivefeed: z.number().min(0).max(30),
@@ -107,17 +119,8 @@ type Schema = z.input<typeof schema>
 
 const  settings  = await CommonService.getSettings()
 console.log(settings)
-const state1 = reactive<Partial<Schema>>({
-  chat: undefined,
-  textchat: undefined,
-  textarea: undefined,
-  wholivefeed: undefined,
-  daylivefeed: undefined,
-  timelivefeed: undefined,
-  livefeed: undefined
-})
-const state = reactive<Partial<Schema>>(settings)
 
+const state = reactive<Partial<Schema>>(settings)
 
 import {
   GET_CONTACTS
@@ -142,26 +145,10 @@ async function onSubmit(event: FormSubmitEvent<typeof state>) {
 
   const  settings  = await CommonService.saveSettings({ ...state })
 
-  try {
-    // isInited.value = false
-    // error.value = null
-
-    const hello = await $fetch('/api/hello', {
-      method: 'GET',
-      query: { //count: count
-         }
-    })
-    console.log(hello)
-  } catch (err) {
-    // error.value = 'Failed to add employees'
-    console.error('Error:', err)
-  }
-
   console.log('response')
   console.log(settings)
 
   console.log('Created element with ID:', Result);
-
 }
 
 const { loggedIn, user, session, clear: clearSession } = useUserSession()
@@ -169,29 +156,10 @@ console.log('loggedIn index')
 console.log(loggedIn)
 //const $logger = LoggerBrowser.build('OAut.index', true)
 const isInit = ref(false)
-const crmListShow = ref(false)
 
 onMounted(async () => {
   isInit.value = true
 })
-
-const makeOpenSliderForUser = () => {
-  window.open(
-      `${user.value?.bitrix24?.targetOrigin}/company/personal/user/${user.value?.bitrix24?.id}/`
-  )
-
-  return Promise.resolve()
-}
-
-const makeCrmListShow = () => {
-  crmListShow.value = true
-}
-
-async function logout() {
-  isInit.value = false
-  await clearSession()
-  await navigateTo('/auth')
-}
 
 onMounted(() => {
   $logger.info({
@@ -199,10 +167,6 @@ onMounted(() => {
     session: session.value
   })
 })
-
-async function goToB24() {
-
-}
 
 // const { data: departments, status } = await useFetch('/api/departments', {
 //   key: 'typicode-users',
@@ -222,6 +186,7 @@ type Employee = {
   id: number
   birthday: string
   name: string
+  departments: string
 }
 
 type Department = {
@@ -308,9 +273,10 @@ const columns: TableColumn<Employee>[] = [
   },
   {
     accessorKey: 'birthday',
-    header: 'Birthday',
+    header: 'День рождения',
     cell: ({ row }) => {
-      return row.getValue('birthday') ? new Date(row.getValue('birthday')).toLocaleString('en-US', {
+      return row.getValue('birthday') ?
+          new Date(row.getValue('birthday')).toLocaleString('ru-RU', {
         day: 'numeric',
         month: 'short',
         hour: '2-digit',
@@ -321,7 +287,11 @@ const columns: TableColumn<Employee>[] = [
   },
   {
     accessorKey: 'name',
-    header: 'Name'
+    header: 'Имя'
+  },
+  {
+    accessorKey: 'departments',
+    header: 'Отдел'
   },
 ]
 
@@ -348,29 +318,32 @@ const columnFilters = ref([
       <B24FormField name="livefeed">
         <B24Switch v-model="state.livefeed" label="Отправлять поздравление в ленту компании" />
       </B24FormField>
-      <div >
-        <B24FormField name="livefeed" label="Текст поздравления">
-          <B24Textarea v-model="state.textarea" placeholder="" />
+
+        <B24FormField name="livefeed" label="Текст поздравления" >
+          <B24Textarea v-model="state.textarea" :cols="20" placeholder="" class="w-80" />
         </B24FormField>
+
         <B24FormField name="livefeed" label="Время отправки поздравления">
-          <B24InputNumber v-model="state.timelivefeed" :default-value="24" />
+          <B24InputNumber v-model="state.timelivefeed" :default-value="24"  class="w-24"/>
         </B24FormField>
+
         <B24FormField name="livefeed" label="За сколько дней до события создавать поздравление">
-          <B24InputNumber v-model="state.daylivefeed" :default-value="0" />
+          <B24InputNumber v-model="state.daylivefeed" :default-value="0"  class="w-24"/>
         </B24FormField>
+
         <B24FormField name="livefeed" label="Кто будет видеть (отделы и пользователи)">
-          <B24Input v-model="state.wholivefeed"  />
+            <B24Select v-model="state.wholivefeed" :items="wholivefeedItems" class="w-80" />
         </B24FormField>
-      </div>
+
       <B24FormField name="chat">
         <B24Switch v-model="state.chat" label="Создавать чат" />
       </B24FormField>
       <div>
         <B24FormField name="text-chat" label="Текст для чата">
-          <B24Textarea v-model="state.textchat" placeholder="" />
+          <B24Textarea v-model="state.textchat" placeholder=""  class="w-80"/>
         </B24FormField>
       </div>
-        <B24Button type="submit" label="Submit" color="air-primary-success" />
+        <B24Button type="submit" label="Сохранить" color="air-primary-success" />
       </B24Form>
     </template>
     <template #s2="{ item }">
@@ -390,18 +363,18 @@ const columnFilters = ref([
                 v-model="selectFilters"
                 :loading="status === 'pending'"
 
-                placeholder="Select department"
+                placeholder="Отдел"
                 class="w-[192px]"
                 @update:model-value="loadMore"
             >
             </B24SelectMenu>
 
-          <B24Input
-              :model-value="table?.tableApi?.getColumn('name')?.getFilterValue() as string"
-              class="max-w-[300px]"
-              placeholder="Filter names..."
-              @update:model-value="table?.tableApi?.getColumn('name')?.setFilterValue($event)"
-          />
+<!--          <B24Input-->
+<!--              :model-value="table?.tableApi?.getColumn('name')?.getFilterValue() as string"-->
+<!--              class="max-w-[300px]"-->
+<!--              placeholder="Filter names..."-->
+<!--              @update:model-value="table?.tableApi?.getColumn('name')?.setFilterValue($event)"-->
+<!--          />-->
         </template>
         <B24Table ref="table" v-model:column-filters="columnFilters" :data="employees" :columns="columns" />
       </B24Card>

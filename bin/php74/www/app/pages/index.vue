@@ -38,6 +38,10 @@ async function logout() {
   await navigateTo('/auth')
 }
 
+async function href() {
+  window.location.href = '/settings';
+}
+
 onMounted(() => {
   $logger.info({
     user: user.value,
@@ -84,24 +88,25 @@ onMounted(() => {
           />
           <B24Button
             size="xs"
-            label="Company List"
+            label="Найтройки праздников"
             color="collab"
-            @click.stop="makeCrmListShow"
+            @click="href"
           />
         </div>
       </div>
-      <B24Slideover
-        v-model:open="crmListShow"
-        title="Company list"
-        description="get from server side"
-        class="w-full md:w-1/3 max-w-[calc(100%_-_45px)]"
-      >
-        <template #body>
-          <div class="mx-2">
-            <CompanyList />
-          </div>
-        </template>
-      </B24Slideover>
+<!--      <B24Slideover-->
+<!--        v-model:open="crmListShow"-->
+<!--        title="Company list"-->
+<!--        description="get from server side"-->
+<!--        class="w-full md:w-1/3 max-w-[calc(100%_-_45px)]"-->
+<!--      >-->
+<!--        <template #body>-->
+<!--          <div class="mx-2">-->
+<!--            <CompanyList />-->
+<!--          </div>-->
+<!--        </template>-->
+<!--      </B24Slideover>-->
+<!--      </B24Slideover>-->
     </template>
   </div>
 </template>
