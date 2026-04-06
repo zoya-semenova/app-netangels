@@ -151,6 +151,58 @@ async function onSubmit(event: FormSubmitEvent<typeof state>) {
   console.log('Created element with ID:', Result);
 }
 
+async function onCalendar() {
+  toast.add({ title: 'Success', description: 'The form has been submitted.', color: 'air-primary-success' })
+  console.log(state)
+  isShowResult.value = true
+
+  const calendar  = await CommonServiceT.saveCalendar({ ...state })
+
+  console.log('response')
+  console.log(calendar)
+
+  console.log('Created element with ID:', Result);
+}
+
+async function onEvent() {
+  toast.add({ title: 'Success', description: 'The form has been submitted.', color: 'air-primary-success' })
+  console.log(state)
+  isShowResult.value = true
+
+  const event  = await CommonServiceT.saveEvent({ ...state })
+
+  console.log('response')
+  console.log(event)
+
+  console.log('Created element with ID:', Result);
+}
+
+async function onChat() {
+  toast.add({ title: 'Success', description: 'The form has been submitted.', color: 'air-primary-success' })
+  console.log(state)
+  isShowResult.value = true
+
+  const chat  = await CommonServiceT.saveChat({ ...state })
+
+  console.log('response')
+  console.log(chat)
+
+  console.log('Created element with ID:', Result);
+}
+
+async function onBot() {
+  toast.add({ title: 'Success', description: 'The form has been submitted.', color: 'air-primary-success' })
+  console.log(state)
+  isShowResult.value = true
+
+  const bot  = await CommonServiceT.saveBot({ ...state })
+
+  console.log('response')
+  console.log(bot)
+
+  console.log('Created element with ID:', Result);
+}
+
 const { loggedIn, user, session, clear: clearSession } = useUserSession()
 console.log('loggedIn index')
 console.log(loggedIn)
@@ -279,8 +331,6 @@ const columns: TableColumn<Employee>[] = [
           new Date(row.getValue('birthday')).toLocaleString('ru-RU', {
         day: 'numeric',
         month: 'short',
-        hour: '2-digit',
-        minute: '2-digit',
         hour12: false
       }) : 'не заполнен'
     }
@@ -344,6 +394,18 @@ const columnFilters = ref([
         </B24FormField>
       </div>
         <B24Button type="submit" label="Сохранить" color="air-primary-success" />
+        <div>
+        <B24Button class="" @click="onCalendar" label="Календарь" color="air-primary-success" />
+        </div>
+        <div>
+          <B24Button class="" @click="onEvent" label="Событие" color="air-primary-success" />
+        </div>
+        <div>
+          <B24Button class="" @click="onChat" label="Чат" color="air-primary-success" />
+        </div>
+        <div>
+          <B24Button class="" @click="onBot" label="Бот" color="air-primary-success" />
+        </div>
       </B24Form>
     </template>
     <template #s2="{ item }">

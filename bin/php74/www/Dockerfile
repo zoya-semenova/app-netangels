@@ -87,6 +87,7 @@ RUN apt-get update -y && apt-get install imagemagick -y
 RUN rm -rf /var/lib/apt/lists/ && curl -sL https://deb.nodesource.com/setup_22.x | bash
 RUN apt-get install nodejs -y
 
+
 #ENV APP_ROOT /var/www/html/nuxt
 
 #WORKDIR /home/zoya/aka-lamer-localhost-5c59b39fc75f/aka-lamer-localhost-5c59b39fc75f/bin/php74/www/nuxt
@@ -117,6 +118,7 @@ ENV NUXT_PORT=3000
 #CMD node .output/server/index.mjs
 
 
+RUN npm install node-cron -y
 
 # Cleanup
 RUN rm -rf /usr/src/*

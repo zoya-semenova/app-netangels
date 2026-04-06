@@ -39,7 +39,7 @@ export default defineEventHandler(async (event) => {
     }
     const data = response.getData()
 
-    const list = data.result[query.departments?query.departments.join(' '):3]
+    const list = data.result[query.departments?query.departments.join(' '):'']
     const time = data.time
 
     $logger.log({
@@ -63,6 +63,7 @@ export default defineEventHandler(async (event) => {
 
       const mapDepartments = Object.fromEntries(departments.map(dep => [dep.ID, dep]));
       console.log(mapDepartments);console.log('mapDepartments')
+
       return  {'list': list.map(user => ({
         ...user,
       departments: user.departments.map(dep =>

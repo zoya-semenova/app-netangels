@@ -5,12 +5,21 @@ import {
   backendMockServer,
   usePostmanMock
 } from '../conf.env.mjs'
+
 import { server } from './backend.mjs'
 import SettingsModel from "./services/Common/Models/Settings.model.js"
 import Bitrix24API from './Bitrix24API.js'
 
 import { writeFile } from 'fs/promises'
 import { readFile } from 'fs/promises'
+
+import Bree from 'bree'
+
+import { fileURLToPath } from 'url'
+import { resolve, dirname } from 'path'
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 import {
   initializeB24Frame,
@@ -20,7 +29,7 @@ import {
   EnumCrmEntityTypeId,
   Text
 } from '@bitrix24/b24jssdk'
-console.log(usePostmanMock)
+
 
 const bitrix = new Bitrix24API();
 const checkUrlValidity = url => url.slice(-1) !== '/'
@@ -51,23 +60,6 @@ const jsonToFormData = (data) => {
   buildFormData(formData, data)
   return formData
 }
-/*
-// Let's describe the work status interface ////
-interface IStatus {
-  filePath: string,
-      resultInfo: null|string,
-      progress: {
-    ttl: number,
-        lastId: number
-  },
-  time: {
-    start: null|DateTime,
-        stop: null|DateTime,
-        interval: null|Interval
-  }
-}
-*/
-
 
 // process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
@@ -105,7 +97,6 @@ try{
         const result = await bitrix.makeRequest(
             'calendar.section.add',
             {
-
               type: 'user',
               ownerId: 1,
               name: 'New Section',
@@ -118,9 +109,11 @@ try{
               }
             }
         );
-  console.log('create');
+        console.log(result)
+  console.log('CALENDAAAAAAR create');
 
       } catch (error) {
+    console.log('CALENDAAAAAAR error');
   console.log(error.message);
 
       }
@@ -132,6 +125,35 @@ try{
           console.log('The file has been saved!');
         })
         res.send(data)
+
+
+          const bree = new Bree({
+
+              logger: new Cabin(),
+
+              jobs: [
+                  // runs `./jobs/worker-9.js` every day at midnight
+                  {
+                      name: 'worker',
+                      // interval: 'at 12:00 am',
+                      cron: '* * * * *',
+                      path: path.join(__dirname, 'jobs', 'cron.mjs')
+                  },
+              ]
+          });
+
+// handle graceful reloads, pm2 support, and events like SIGHUP, SIGINT, etc.
+          const graceful = new Graceful({ brees: [bree] });
+          graceful.listen();
+
+          (async () => {
+              await bree.stop();
+          })();
+// start all jobs (this is the equivalent of reloading a crontab):
+          (async () => {
+              await bree.start();
+          })();
+
         return
       }
       else {
@@ -154,6 +176,8 @@ try{
       return
     }
     else if (req.url == '/api/calendar') {
+
+
       /*
             try {
               const contacts = await bitrix.getContacts({
