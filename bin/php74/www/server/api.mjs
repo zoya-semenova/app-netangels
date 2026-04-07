@@ -14,9 +14,12 @@ import { writeFile } from 'fs/promises'
 import { readFile } from 'fs/promises'
 
 import Bree from 'bree'
+import Graceful from '@ladjs/graceful'
+import Cabin from 'cabin'
 
 import { fileURLToPath } from 'url'
 import { resolve, dirname } from 'path'
+import path from 'path'
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -93,31 +96,6 @@ server.use(async (req, res) => {
     if (req.url == '/api/settings') {
       if (reqMethod === 'post') {
 
-try{
-        const result = await bitrix.makeRequest(
-            'calendar.section.add',
-            {
-              type: 'user',
-              ownerId: 1,
-              name: 'New Section',
-              description: 'Description for section',
-              color: '#9cbeee',
-              text_color: '#283000',
-              export: {
-                ALLOW: false,
-                SET: '3_9'
-              }
-            }
-        );
-        console.log(result)
-  console.log('CALENDAAAAAAR create');
-
-      } catch (error) {
-    console.log('CALENDAAAAAAR error');
-  console.log(error.message);
-
-      }
-
         console.log(JSON.stringify(req.body))
         const data = SettingsModel.checkValue(req.body)
         writeFile("./settings.json", JSON.stringify(data), 'utf-8', (err) => {
@@ -126,17 +104,13 @@ try{
         })
         res.send(data)
 
-
           const bree = new Bree({
-
               logger: new Cabin(),
-
               jobs: [
-                  // runs `./jobs/worker-9.js` every day at midnight
                   {
-                      name: 'worker',
-                      // interval: 'at 12:00 am',
-                      cron: '* * * * *',
+                      name: 'worker_birthday2',
+                      // cron: '* * * * *',
+                      interval: 'one minute',
                       path: path.join(__dirname, 'jobs', 'cron.mjs')
                   },
               ]
@@ -146,9 +120,8 @@ try{
           const graceful = new Graceful({ brees: [bree] });
           graceful.listen();
 
-          (async () => {
-              await bree.stop();
-          })();
+               bree.stop();
+
 // start all jobs (this is the equivalent of reloading a crontab):
           (async () => {
               await bree.start();
@@ -172,8 +145,8 @@ try{
         }
         res.send({})
 
+        return
       }
-      return
     }
     else if (req.url == '/api/calendar') {
 
