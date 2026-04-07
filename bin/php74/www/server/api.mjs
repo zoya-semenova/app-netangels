@@ -111,7 +111,7 @@ server.use(async (req, res) => {
                       name: 'worker_birthday2',
                       // cron: '* * * * *',
                       interval: 'one minute',
-                      path: path.join(__dirname, 'jobs', 'cron.mjs')
+                      path: path.join(__dirname, 'jobs', 'cron.js')
                   },
               ]
           });
@@ -148,6 +148,7 @@ server.use(async (req, res) => {
         return
       }
     }
+
     else if (req.url == '/api/calendar') {
 
 

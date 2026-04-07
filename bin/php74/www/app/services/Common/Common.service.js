@@ -37,6 +37,16 @@ class CommonService extends Service {
         return data;
         // }
     }
+
+    async getEmployees () {
+
+        const res = await this.get("https://vm-ad77e947.na4u.ru/api/employees")
+        // //data =  await dispatch(GET_CONTACTS)
+        // writeFile("./settings.json", params)
+        // data = SettingsModel.checkValue(data)
+
+        return res;
+    }
 }
 
 export default new CommonService()

@@ -13,6 +13,15 @@ class Model {
     if (!this.fields) {
       return value
     }
+    const defaultValue = {
+      chat: true,
+      textchat: '',
+      livefeed:true,
+      daylivefeed:'3',
+      timelivefeed:'12',
+      wholivefeed:'company',
+      textarea:''
+    };
     const newValue = {}
     this.fields.forEach(field => {
       const fieldStrategy = this.model[field].strategy || this.model[field]
@@ -22,6 +31,7 @@ class Model {
           fieldStrategy.setName(childModelName)
         }
         if (value[field] === undefined) {
+          newValue[field] = defaultValue[field];
           if (this.model[field].required) {
             console.error(`Missing field in response: ${field}`)
           }

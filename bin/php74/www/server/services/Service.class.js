@@ -1,5 +1,6 @@
 import axios from 'axios'
-import { frontendBaseURL } from '../frontendBaseURL'
+import { frontendBaseURL } from '../../frontendBaseURL.js'
+
 const isDev = process.env.NODE_ENV === 'development'
 
 let baseURL = ''
@@ -15,7 +16,7 @@ if (process.client) {
 }
 
 if (process.client) {
-  const siteUrlEl = document.querySelector('meta[name="site-url"')
+  const siteUrlEl = document.querySelector('meta[name="site-url"]')
   if (siteUrlEl) {
     baseURL = siteUrlEl.content
   }
