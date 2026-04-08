@@ -83,44 +83,7 @@ RUN a2enmod rewrite headers
 
 RUN apt-get update -y && apt-get install imagemagick -y
 
-
-RUN rm -rf /var/lib/apt/lists/ && curl -sL https://deb.nodesource.com/setup_22.x | bash
-RUN apt-get install nodejs -y
-
-
-#ENV APP_ROOT /var/www/html/nuxt
-
-#WORKDIR /home/zoya/aka-lamer-localhost-5c59b39fc75f/aka-lamer-localhost-5c59b39fc75f/bin/php74/www/nuxt
-
-#WORKDIR /var/www/html/nuxt
-#WORKDIR /var/www/html/nuxt
-#WORKDIR .
-#COPY ${APP_ROOT}/package.json ./
-#FROM node:16-alpine as builder
-#COPY /bin/php74/www/nuxt/ /var/www/html/
-#COPY  package.json /var/www/html/nuxt/package.json
-#RUN rm -rf ./node_modules
-#ADD . /var/www/html
-#ADD
-#RUN rm -rf /var/www/html/nuxt/node_modules
-#RUN cd ../../nuxt
-#RUN npm install
-#RUN chown -R 1000:1000 /var/www/html/nuxt
-COPY . /var/www/html
-#ENV npm_config_cache /home/zoya/.npm
 WORKDIR /var/www/html
-EXPOSE 3000
 
-ENV NUXT_HOST=0.0.0.0
-ENV NUXT_PORT=3000
-#RUN npm install
-#CMD [ "npm", "run", "dev" ]
-#CMD node .output/server/index.mjs
-
-
-RUN npm install node-cron -y
-
-# Cleanup
-RUN rm -rf /usr/src/*
 
 

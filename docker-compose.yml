@@ -5,10 +5,10 @@ services:
    # image: httpd:latest # Or an image with Apache and PHP pre-installed
     build:
       #context: ./bin/${PHPVERSION}/www/nuxt
-     context: ./bin/${PHPVERSION}/www
+     context: ./bin/front/www
      # context: ./bin/${PHPVERSION}
       #context: \\wsl.localhost\Ubuntu\home\zoya\aka-lamer-localhost-5c59b39fc75f\aka-lamer-localhost-5c59b39fc75f\bin\php74\www\nuxt
-    container_name: '${COMPOSE_PROJECT_NAME}-${PHPVERSION}'
+    container_name: '${COMPOSE_PROJECT_NAME}-front'
     restart: 'always'
     ports:
       - "${HOST_MACHINE_UNSECURE_HOST_PORT}:8080"
@@ -38,6 +38,35 @@ services:
 #    networks:
 #      - app-network
 
+  phpserver:
+    # image: httpd:latest # Or an image with Apache and PHP pre-installed
+    build:
+      #context: ./bin/${PHPVERSION}/www/nuxt
+      context: ./bin/back/www
+        # context: ./bin/${PHPVERSION}
+      #context: \\wsl.localhost\Ubuntu\home\zoya\aka-lamer-localhost-5c59b39fc75f\aka-lamer-localhost-5c59b39fc75f\bin\php74\www\nuxt
+    container_name: '${COMPOSE_PROJECT_NAME}-back'
+    restart: 'always'
+    ports:
+      - "127.0.0.1:8084:80"
+      - "127.0.0.1:4435:443"
+    links:
+      - database
+      - maildev:maildev
+    volumes:
+      - ${DOCUMENT_ROOT_PHP}:/var/www/html
+      #     - ${APP_ROOT}:/var/www/html
+      - ${PHP_INI-./config/php/php.ini}:/usr/local/etc/php/php.ini
+      - ${VHOSTS_PHP_DIR-./config/vhostsback}:/etc/apache2/sites-enabled
+      - ${LOG_DIR-./logs/apache2}:/var/log/apache2
+    environment:
+      PMA_PORT: ${HOST_MACHINE_PMA_PORT}
+      REDIS_HOST: ${HOST_MACHINE_REDIS}
+      #      APP_ROOT: ${APP_ROOT}
+      CHOKIDAR_USEPOLLING: true
+  #    networks:
+  #      - app-network
+
   database:
     image: theonesrl/lamp_db
     build:
@@ -54,6 +83,7 @@ services:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_USER: ${MYSQL_USER}
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     container_name: '${COMPOSE_PROJECT_NAME}-phpmyadmin'
@@ -71,11 +101,13 @@ services:
     volumes: 
       - /sessions
       - ${PHP_INI-./config/php/php.ini}:/usr/local/etc/php/conf.d/php-phpmyadmin.ini
+
   redis:
     container_name: '${COMPOSE_PROJECT_NAME}-redis'
     image: redis:latest
     ports:
       - "127.0.0.1:${HOST_MACHINE_REDIS_PORT}:6379"
+
   maildev:
     image: djfarrelly/maildev
     ports:
