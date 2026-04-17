@@ -171,6 +171,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="89.188.114.90">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="91.201.52.222">
         <serverdata>
           <mappings>
